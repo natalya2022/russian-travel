@@ -1,0 +1,12 @@
+.page {
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background: #2A2C2F;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+* {
+  outline: 1px solid red;
+}
