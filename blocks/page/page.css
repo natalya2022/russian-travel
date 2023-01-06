@@ -1,11 +1,24 @@
 .page {
   min-width: 320px;
+  max-width: 1280px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
   background: #2A2C2F;
-  padding: 16px;
+  padding: 16px 16px 24px;
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 768px) {
+  .page {
+    padding: 28px 24px 24px;
+  }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .page {
+      padding: 28px 48px 24px;
+    }
+    }
 
 * {
   outline: 1px solid red;
