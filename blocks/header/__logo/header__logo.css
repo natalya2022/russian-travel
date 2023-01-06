@@ -1,11 +1,11 @@
 .header__logo {
-    width: 142px;
-    height: 42px;
+    width: clamp(142px, 28vw, 176px);
+    height: clamp(42px, 28vw, 52px);
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .header__logo {
         width: 176px;
         height: 52px;
     }
-    }
+    } */

@@ -2,9 +2,18 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: clamp(16px, 5vw, 30px);
+    line-height: clamp(20px, 5vw, 36px);
     text-align: center;
-    color: #FFFFFF;
-    margin: 0 0 40px;;
+    color: #FFFFFF;    
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: clamp(40px, 7.5vw, 56px);
 }
+
+@media screen and (min-width: 1024px) {
+    .lead__subtitle {
+        margin-bottom: clamp(56px, 5.05vw, 64px);
+    }
+    }
