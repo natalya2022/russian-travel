@@ -1,5 +1,27 @@
 .lead {
     margin: 0;
     padding: 48px 0 64px; 
-    text-align: center;   
+    text-align: center;
+    font-size: 0;
+    line-height: 0;
+    /* height: 406px;
+    box-sizing: border-box;    */
 }
+
+@media screen and (min-width: 768px) {
+    .lead {
+      padding-bottom: 88px;
+    }
+    }
+  
+@media screen and (min-width: 1024px) {
+    .lead {
+    padding-bottom: 92px;
+    }
+    }
+  
+@media screen and (min-width: 1280px) {
+    .lead {
+    padding-top: 56px;
+    }
+    }

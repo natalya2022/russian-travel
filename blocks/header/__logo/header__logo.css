@@ -1,6 +1,6 @@
 .header__logo {
     width: clamp(142px, 28vw, 176px);
-    height: clamp(42px, 28vw, 52px);
+    height: clamp(42px, 9vw, 52px);
 }
 
 /* @media screen and (min-width: 768px) {

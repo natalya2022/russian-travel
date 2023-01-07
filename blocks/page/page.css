@@ -6,6 +6,7 @@
   background: #2A2C2F;
   padding: 16px 16px 24px;
   box-sizing: border-box;
+  background-image: url();
 }
 
 @media screen and (min-width: 768px) {
