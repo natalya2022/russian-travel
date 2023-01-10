@@ -11,13 +11,5 @@
     margin-right: auto;
     margin-bottom: clamp(16px, 4.3vw, 32px);
     max-width: 720px;
-    height: clamp(88px, 26.1vw, 200px);
+    /* height: clamp(88px, 26.1vw, 200px); */
 }
-
-/* @media screen and (min-width: 768px) {
-    .lead__title {      
-      margin: 0 0 32px;
-      font-size: 96px;
-      line-height: 100px;
-    }
-    } */
