@@ -3,9 +3,3 @@
     height: clamp(42px, 9vw, 52px);
 }
 
-/* @media screen and (min-width: 768px) {
-    .header__logo {
-        width: 176px;
-        height: 52px;
-    }
-    } */
