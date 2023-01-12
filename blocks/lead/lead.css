@@ -10,16 +10,19 @@
     .lead {
       padding: 48px 24px 88px;
     }
-    }
+}
   
 @media screen and (min-width: 1024px) {
     .lead {
     padding: 48px 48px 92px;
     }
-    }
-  
+}
+
 @media screen and (min-width: 1280px) {
     .lead {
-    padding: 56px auto 92px;
+        padding-top: 56px;
+        padding-left: 0;
+        padding-bottom: 92px;
+        padding-right: 0;        
     }
-    }
+}
