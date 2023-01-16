@@ -1,26 +1,26 @@
 .place__image {
     grid-area: img;
     width: 100vw;
-    margin: 0 -16px 0 -16px;      
+    margin: 0 -16px 0 -16px;
 }
 
 @media screen and (min-width: 768px) {
     .place__image {
-        width: 100%;        
-        margin: 0;       
+        width: 100%;
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .place__image {
         width: 100%;
-        margin: 0;       
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .place__image {
         width: 100%;
-        margin: 0;        
+        margin: 0;
     }
 }

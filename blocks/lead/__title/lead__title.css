@@ -3,12 +3,12 @@
     font-style: normal;
     font-weight: 900;
     font-size: clamp(40px, 12.5vw, 96px);
-    line-height: clamp(44px, 13vw, 100px);       
+    line-height: clamp(44px, 13vw, 100px);
     text-align: center;
     color: #FFFFFF;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: clamp(16px, 4.3vw, 32px);
-    max-width: 720px;    
+    max-width: 720px;
 }

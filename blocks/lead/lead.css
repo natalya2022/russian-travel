@@ -1,20 +1,20 @@
 .lead {
     margin: 0;
-    padding: 48px 16px 64px; 
+    padding: 48px 16px 64px;
     text-align: center;
     font-size: 0;
-    line-height: 0;    
+    line-height: 0;
 }
 
 @media screen and (min-width: 768px) {
     .lead {
-      padding: 48px 24px 88px;
+        padding: 48px 24px 88px;
     }
 }
-  
+
 @media screen and (min-width: 1024px) {
     .lead {
-    padding: 48px 48px 92px;
+        padding: 48px 48px 92px;
     }
 }
 
@@ -23,6 +23,6 @@
         padding-top: 56px;
         padding-left: 0;
         padding-bottom: 92px;
-        padding-right: 0;        
+        padding-right: 0;
     }
 }

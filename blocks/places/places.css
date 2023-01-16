@@ -5,20 +5,20 @@
 
 @media screen and (min-width: 768px) {
     .places {
-      padding: 88px 24px 0;
+        padding: 88px 24px 0;
     }
 }
-  
+
 @media screen and (min-width: 1024px) {
     .places {
-    padding: 92px 48px 0;
+        padding: 92px 48px 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
-.places {
-    max-width: 984px;
-    margin: auto;
-    padding: 92px 0 0;          
+    .places {
+        max-width: 984px;
+        margin: auto;
+        padding: 92px 0 0;
     }
-}    
+}
