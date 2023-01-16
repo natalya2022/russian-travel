@@ -1,0 +1,7 @@
+.cover__container {    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 255, 21, 0.1);
+    position: relative;
+}
+
