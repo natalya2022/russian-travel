@@ -10,6 +10,5 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: clamp(16px, 4.3vw, 32px);
-    max-width: 720px;
-    /* height: clamp(88px, 26.1vw, 200px); */
+    max-width: 720px;    
 }

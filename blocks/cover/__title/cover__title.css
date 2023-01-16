@@ -1,0 +1,29 @@
+.cover__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;    
+    text-align: center;
+    font-size: clamp(32px, 9vw, 72px);
+    line-height: clamp(35px, 10vw, 76px);
+    margin: 0 auto 0;
+    padding-top: 33px;
+    max-width: 560px;   
+}
+
+@media screen and (min-width: 768px) {
+    .cover__title {       
+        padding-top: 115px;        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__title {
+        padding-top: 195px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__title {
+        padding-top: 245px;
+    }
+}
