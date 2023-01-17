@@ -1,9 +1,9 @@
-.place__paragraph_number_two {
+.place__paragraph_location_other {
     margin: 25px 0 0;
 }
 
 @media screen and (min-width: 1024px) {
-    .place__paragraph_number_two {
+    .place__paragraph_location_other {
         margin: 27px 0 0;
     }
 }
