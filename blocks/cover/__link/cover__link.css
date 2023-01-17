@@ -1,4 +1,6 @@
 .cover__link {
     color: #FFFFFF;
     text-decoration: none;
+    display: block;
+    width: 100%;
 }

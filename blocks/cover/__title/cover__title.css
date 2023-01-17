@@ -1,14 +1,11 @@
 .cover__title {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     text-align: center;
     font-size: clamp(32px, 9.5vw, 72px);
     line-height: clamp(35px, 10.5vw, 76px);
-    /* font-size: 32px;
-    line-height: 35px; */
     margin: 0 auto 0;
-    padding-top: 33px;
+    padding-top: clamp(33px, 14vw, 115px);
     max-width: 560px;
 }
 

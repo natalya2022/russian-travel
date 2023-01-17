@@ -1,15 +1,13 @@
 .place__paragraphs {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26.08px;
-    color: #FFFFFF;
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 25px;
 }
 
 @media screen and (min-width: 1024px) {
     .place__paragraphs {
-        font-size: 18px;
-        line-height: 29.34px;
+        row-gap: 26px;
     }
 }
