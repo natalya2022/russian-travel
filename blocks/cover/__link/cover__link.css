@@ -1,14 +1,19 @@
 .cover__link {
     color: #FFFFFF;
     text-decoration: none;
-    display: block;
     width: 100%;
     min-height: clamp(200px, 62.5vw, 480px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
 }
 
 @media screen and (min-width: 768px) {
     .cover__link {
         min-height: 480px;
+        row-gap: 32px;
     }
 }
 
