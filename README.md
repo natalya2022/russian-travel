@@ -38,7 +38,7 @@
 ### Установка проекта
 Клонирование проекта
 ```
-git clone git@github.com:natalya2022/mesto-react.git
+git clone git@github.com:natalya2022/russian-travel.git
 ```
 Установка зависимостей
 ```
